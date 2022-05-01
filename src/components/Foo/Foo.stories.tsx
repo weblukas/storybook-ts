@@ -6,7 +6,7 @@ export default {
   component: Foo,
   decorators: [
     (Story) => (
-      <div style={{ font: "12px / 1.41667 tahoma,helvetica,arial,sans-serif" }}>
+      <div style={{ font: "12px / 1.41667 tahoma,helvetica,arial,sans-serif", padding: 20 }}>
         <Story />
       </div>
     ),
