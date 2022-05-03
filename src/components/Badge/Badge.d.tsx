@@ -3,4 +3,5 @@ export default interface IBadge {
   label: string;
   // children: object;
   size?: "large" | "medium" | "small" | "x-small";
+  backgroundColor?: string;
 }

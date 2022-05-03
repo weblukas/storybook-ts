@@ -15,6 +15,9 @@ export default {
             </div>
         ),
     ],
+    argTypes: {
+        backgroundColor: { control: 'color'}
+    },
     title: 'Badge',
 } as ComponentMeta<typeof Badge>;
 
@@ -26,3 +29,17 @@ export const Main = Template.bind({});
 Main.args = {
     label: 'Badge',
 };
+
+export const Second = Template.bind({})
+Second.argTypes = {
+    backgroundColor: {
+        control: 'inline-radio',
+        options: ['red', 'green', 'blue']
+    }
+}
+
+Second.parameters = {
+    backgrounds: {
+        default: 'dark'
+    }
+}

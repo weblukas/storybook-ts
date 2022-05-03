@@ -15,3 +15,5 @@ export default {
 
 
 const Template: ComponentStory<typeof SvgComp> = (args) => <SvgComp {...args} />;
+
+export const Svg = Template.bind({})
