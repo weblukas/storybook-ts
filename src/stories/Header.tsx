@@ -1,4 +1,5 @@
 import React from 'react';
+import { BUTTON_SIZE } from '../enums';
 
 import { Button } from './Button';
 import './header.css';
@@ -34,11 +35,11 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
       </div>
       <div>
         {user ? (
-          <Button size="small" onClick={onLogout} label="Log out" />
+          <Button size={BUTTON_SIZE.SMALL} color='green' onClick={onLogout} label="Log out" />
         ) : (
           <>
-            <Button size="small" onClick={onLogin} label="Log in" />
-            <Button primary size="small" onClick={onCreateAccount} label="Sign up" />
+            <Button size={BUTTON_SIZE.SMALL} color='green' onClick={onLogin} label="Log in" />
+            <Button primary size={BUTTON_SIZE.SMALL} color='green' onClick={onCreateAccount} label="Sign up" />
           </>
         )}
       </div>

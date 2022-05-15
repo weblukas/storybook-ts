@@ -1,0 +1,40 @@
+@import '../../../resources/styles/theme.scss';
+
+
+.badge {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    width: 24px;
+}
+badge__selected {
+    background-color: green;
+    color: white;
+}
+
+badge__notification {
+    background-color: green;
+    border: 1px solid white;
+    color: black ;
+    height: 23px;
+    width: 23px;
+}
+
+badge__medium {
+    font-size: 11px;
+    height: 18px;
+    width:18px;
+}
+
+badge__small {
+    font-size: 11px;
+    height: 8px;
+    width: 8px;
+}
+
+badge__x-small {
+    height: 5px;
+    width: 5px;
+}
