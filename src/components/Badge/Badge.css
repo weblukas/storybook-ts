@@ -1,6 +1,5 @@
 @import '../../../resources/styles/theme.scss';
 
-
 .badge {
     align-items: center;
     border-radius: 50%;
@@ -17,7 +16,7 @@ badge__selected {
 badge__notification {
     background-color: green;
     border: 1px solid white;
-    color: black ;
+    color: black;
     height: 23px;
     width: 23px;
 }
@@ -25,7 +24,7 @@ badge__notification {
 badge__medium {
     font-size: 11px;
     height: 18px;
-    width:18px;
+    width: 18px;
 }
 
 badge__small {

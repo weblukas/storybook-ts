@@ -1,4 +1,4 @@
-import { BADGE_SIZE } from "../../enums";
+import { BADGE_SIZE } from '../../enums';
 
 export default interface IBadge {
     color?: 'selected' | 'notification';

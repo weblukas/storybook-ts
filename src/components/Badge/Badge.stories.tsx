@@ -1,7 +1,4 @@
-import {
-    ComponentMeta,
-    ComponentStory,
-} from '@storybook/react';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 import Badge from './Badge';
 import React from 'react';
 
@@ -9,7 +6,11 @@ export default {
     component: Badge,
     decorators: [
         (Story) => (
-            <div style={{ font: '12px / 1.41667 tahoma,helvetica,arial,sans-serif' }}>
+            <div
+                style={{
+                    font: '12px / 1.41667 tahoma,helvetica,arial,sans-serif',
+                }}
+            >
                 <Story />
             </div>
         ),

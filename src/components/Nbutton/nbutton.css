@@ -1,0 +1,12 @@
+.button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px, 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.primary {background-color: rgb(108, 108, 220);}
+.secondary {background-color: rgb(88, 214, 88);}
+.succes {background-color: rgb(208, 57, 206);}
+.danger {background-color: rgb(226, 198, 39);}

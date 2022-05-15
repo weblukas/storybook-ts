@@ -1,0 +1,30 @@
+.storybook-button {
+    width: 75px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+  }
+  .storybook-button--defGreen {
+    color: white;
+    background-color: #00A8A8;
+  }
+  .storybook-button--lightGreen {
+    color: #00A8A8;
+    background-color: #E6F6F6;
+  }
+  .storybook-button--grey {
+    color: rgb(255, 255, 255);
+    background-color: #CCCCCC;
+  }
+  .storybook-button--red {
+    color: rgb(255, 255, 255);
+    background-color: #FF2C2C;
+  }
+
+
+  .storybook-button--lightRed {
+    color: #FF2C2C;
+    background-color: #FFF0F0;
+  }
